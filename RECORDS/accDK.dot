@@ -1,0 +1,9 @@
+digraph structs {
+  node [shape=record];
+  struct1 [shape=record,label="{SUPERACC\nSuper pupper acc|{<d> Debet|<k> Kredit}|SUPERACC\nSuper pupper acc}"];
+  struct2 [shape=record,label="{SUPER2\nSuper2 acc|{<d> Debet|<k> Kredit}|SUPER2\nSuper2 acc}"];
+  struct3 [shape=record,label="{SUPER3\nSuper3 acc|{<d> Debet|<k> Kredit}|SUPER3\nSuper3 acc}"];
+
+  struct1:k -> struct2:d;
+  struct1:k -> struct3:d;
+}

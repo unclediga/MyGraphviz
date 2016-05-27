@@ -1,0 +1,1 @@
+neato.exe -Tpng -O %1
